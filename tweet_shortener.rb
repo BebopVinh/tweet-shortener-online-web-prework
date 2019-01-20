@@ -42,7 +42,6 @@ def selective_tweet_shortener(tweet)
       puts tweet.slice!(0..139)
     end
     puts tweet
-
   else
     puts tweet
   end
