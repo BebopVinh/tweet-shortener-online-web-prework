@@ -46,6 +46,7 @@ end
 
 
 def shortened_tweet_truncator(tweet)
-  word_substituter(tweet)
+  # word_substituter(tweet)
+  bulk_tweet_shortener(tweet)
   selective_tweet_shortener(tweet)
 end
