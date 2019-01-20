@@ -37,5 +37,6 @@ end
 
 
 def selective_tweet_shortener(tweet)
-binding.pry
+  if tweet.size > 140
+    
 end
